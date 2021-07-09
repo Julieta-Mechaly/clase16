@@ -1,0 +1,105 @@
+nav {
+    padding-left: 10px;
+    background-color: #1CD1B0;
+    color: black;
+    font-size: 15px;
+}
+
+header, footer {
+    background-color: #00669F;
+    color: white;
+}
+
+.lugares-header{
+    display: flex;
+    flex-direction: row;
+}
+
+#forma-foto{
+    width: 100px;
+    height: 80px;
+    margin: 10px;
+}
+
+#forma-texto{
+    font-size: 30px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10%;
+}
+
+label, input, textarea, select {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 300px;
+}
+
+.botones-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+   
+}
+
+#boton-entrar{
+    position: relative;
+    right: 25px;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 5px;
+    border-radius:  10px;
+    width: 310px;
+    background-color: #1CD1B0;
+    color:black;
+    font-weight: bold;
+}
+
+#boton1{
+    position: relative;
+    right: 25px;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 5px;
+    border-radius:  10px;
+    width: 150px;
+    background-color: #888888;
+    color: white;
+    font-weight: bold;
+}
+
+#boton2{
+    position: relative;
+    right: 25px;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 5px;
+    border-radius:  10px;
+    width: 150px;
+    background-color: #1CD1B0;
+    color:black;
+    font-weight: bold;
+    margin-left: 7px;
+}
+
+.texto-final{
+    display: flex;
+    justify-content: center;
+}
+
+span{
+    color:#00669F
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+

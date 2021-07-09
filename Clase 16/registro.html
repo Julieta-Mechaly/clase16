@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Clase 16/CSS/style.css">
+</head>
+<body>
+    <header>
+        <nav> <p> 20% de descuento en todos los productos </p> </nav>
+        <div class="lugares-header" > 
+            <img id="forma-foto" src="../Clase 16/img/tienda.jpg" alt="imagen de la tienda">
+            <p id="forma-texto"> Nombre Tienda </p> 
+        </div>
+    </header>
+    <main>
+        <h1>Registro</h1>
+        
+        <form action="#">
+            <label for="name-surname"></label>
+            <input type="text" id="name-surname" name="name-surname" placeholder="Nombre y Apellido" required>
+            
+            <label for="email"></label>
+            <input type="email" id="email" pattern=".+@gmail\.com" placeholder="Correo Electrónico" required>
+            
+            <label for="password"></label>
+            <input type="password" id="password" name="password" placeholder="Contraseña" required>
+
+            <label for="country"></label>
+            <select name="country" id="country">
+                <optgroup label="País">
+                    <option value="Argentina">Argentina</option>
+                    <option value="Colombia">Colombia</option>
+                    <option value="Brasil">Brasil</option>
+                </optgroup>
+            </select>
+            
+            <div class="botones-form">
+                <input id="boton1" type="reset" value="Resetear">
+                <input id="boton2" type="submit" value="Registrar">
+            </div>
+            <p class="texto-final"> <span> No tienes una cuenta? </span> Registrarme</p>
+        </form>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados FRONT END 1</p>
+    </footer>
+    
+
+
+</body>
+</html>
